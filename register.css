@@ -9,36 +9,41 @@
 .nav-bar{
   display: flex;
   background-color: #293F50;
-  height: 30vh;
-  padding: 0 20%;
+  height: 25vh;
+  
   align-items: center;
   color: #ffffff;
+  font-size: 1.4rem;
   /* padding: 15px 10px; */
 }
 
+.title{
+  padding: 0 20%;
+}
+
 .nav-elements{
-  padding-left: 10%;
-  font-size: 20px;
+  margin: 0 8%;
+  font-size: 16px;
   color: #ffffff;
+  text-align: right;
 }
 
 .period{
   color: #648880;
 }
 
-.nav-items {
+/* .nav-items {
   text-align: right;
   
-}
+} */
 
 .nav-items li { 
   display: inline-block;
   list-style: none;
   justify-content: space-between;
   list-style: none;
-  margin: 0 5px;
+  margin: 2%;
   font-size: 14px;
-  margin: 0 0.5rem;
   text-decoration-color: white;
 }
 
@@ -54,7 +59,8 @@
 /*  Main  */
 .register{
   height: 30vh;
-  background-color: #a1d3b0;
+  padding: 0 5%;
+  background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
   align-items: center;
   text-align: center;
 }
@@ -68,31 +74,38 @@
 .para{
   font-size: 21px;
   width: 50%;
-  padding: 0 20%;
+  padding: 0 25%;
   color: #888888;
 }
 
+/*section-two */
+.section-two{
+  display: block;
+  
+}
 
-.form{
+.input-reg{
   display: flex;
-  height: 50vh;
-  padding: 20px 100px;
-  font-weight: bold;
+  padding: 5% 15%;
 }
 
-.form-texts{
-  padding: 30px 50px;
-  width: 45%;
-  font-size: 16px;
-  line-height: 2.0rem;
-}
-
-.input-area{
+.text{
+  padding: 0 15px;
   display: inline-block;
-  padding: 30px 30px;
-  width: 20%;
-  font-size: 18px;
-  line-height: 4.0rem;
+  width: 30%;
+  line-height: 3vh;
+}
+
+.reg-input-area{
+  display: block;
+  padding: 0 10%;
+  width: 35%;
+}
+
+.fieldset label {
+  display: inline-block;
+  padding: 5% 10%;
+  
 }
 
 
@@ -100,16 +113,20 @@
 /* Footer */
 .footer-items{
   display: flex;
-  height: 10vh;
+  height: 5vh;
+  align-items: center;
   background-color: #293F50;
-  padding: 20px 40px;
-  justify-content: space-between;
-  justify-content: center;
+  padding: 25px  20%;
 }
 
 .footer-nav-items{
   display: flex;
-  
+}
+
+.footer-nav-items li {
+  display: inline-block;
+  list-style: none;
+  margin: 25%;
   font-size: 14px;
-  padding: 0 80px;
+  color: white;
 }

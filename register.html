@@ -23,19 +23,20 @@
     </header>
     <!-- End of Header -->
 
-    <!-- Main-content-->
-    <main>
+    <section class="section-one">
       <div class="register">
         <h3 class="reg">Register</h3>
         <p class="para">Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. 
           Conference passes only cost $99, one of the best values you'll find.
         </p>
       </div>
+    </section>
 
-      <div class="form">
-        <div class="form-texts">
+    <section class="section-two">
+      <div class="input-reg">
+        <div class="text">
           <h2>Purchase a Conference Pass</h2>
-          <h4>$99 PER PASS</h4>
+          <h5>$99 PER PASS</h5>
           <p>
             Purchase your Styles Conference pass using the form to the right. 
             Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. 
@@ -50,27 +51,34 @@
         </div>
 
         <!-- Input Area-->
-        <form action="" class="input-area">
-          <label for="fname">Name</label>
-          <input type="text" id="fname" name="fullname" placeholder="Full name..">
-      
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" placeholder="Your Email Address">
-      
-          <label for="numbers">Number of Passes</label>
-          <select id="text" name="numbers">
-            <option value="one">1</option>
-            <option value="two">2</option>
-            <option value="three">3</option>
-          </select>
-          
-          <button class="regiater-btn">
-            Register
-          </button>
+        <form action="" class="reg-input-area">
+          <fieldset class="fieldset">
+            <label for="fname">
+              Name
+              <input type="text" id="fname" name="fullname" placeholder="Full name..">
+            </label>
+            <label for="email">
+              Email
+              <input type="text" id="email" name="email" placeholder="Your Email Address">
+            </label>
+            <label for="numbers"> 
+              Number of Passes 
+              <select id="text" name="numbers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            </label>
+            <label>
+              Comments
+              <textarea name="comments"></textarea>
+            </label>
+          </fieldset>
+          <input class="btn" type="submit" name="submit" value="Purchase">
         </form>
       </div>
-    </main>
-    <!-- End of Main -->
+    </section>
 
     <!-- Footer-->
     <footer>
