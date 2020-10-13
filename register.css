@@ -81,7 +81,23 @@
 /*section-two */
 .section-two{
   display: block;
+  color: #293F50;
   
+}
+h5{
+  color: #648880;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 22px
+}
+
+.text h2{
+  margin-top: 22px
+}
+
+.why-attend{
+  list-style: square;
+  margin: 22px 30px;
 }
 
 .input-reg{
@@ -92,23 +108,64 @@
 .text{
   padding: 0 15px;
   display: inline-block;
-  width: 30%;
+  width: 90%;
   line-height: 3vh;
 }
 
+/*input Area */
+
 .reg-input-area{
   display: block;
-  padding: 0 10%;
-  width: 35%;
+  padding: 0 3%;
+  width: 50%;
+  align-content: flex-start;
 }
 
 .fieldset label {
   display: inline-block;
-  padding: 5% 10%;
+  padding: 5% 8%;
   
 }
 
+fieldset input{
+  /* border-radius: 5px; */
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
 
+.fieldset label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.textarea{
+  border: 1px solid #22272c;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+  columns: 100;
+}
+
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  text-transform: uppercase;
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
 
 /* Footer */
 .footer-items{
