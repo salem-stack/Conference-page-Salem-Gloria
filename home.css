@@ -13,16 +13,20 @@
 
 .nav-bar {
   background-color: #293F50;
-  padding: 15px 10px;
+  padding: 15px 50px;
   display: flex;
   align-items: center;
 }
 
-.nav-elements {
+.nav-bar h1 {
+  color: white;
+}
+
+.nav-bar nav {
   padding-left: 40%;
 }
 
-.nav-items {
+.nav-bar ul {
   display: flex;
   list-style: none;
   text-decoration-style: none;
@@ -30,7 +34,11 @@
   font-size: 14px;
 }
 
-.nav-items a {
+.nav-bar li {
+  margin-right: 2%;
+}
+
+.nav-bar a {
   color: white;
 }
 
@@ -47,7 +55,7 @@
   margin-left: 10%;
 }
 
-.period {
+.h3 {
   margin: 66px 0 0px 0;
   text-align: right;
   margin-right: 25%;
@@ -124,13 +132,13 @@
 }
 
 .footer ul {
-  color: white;
   list-style: none;
   display: flex;
   margin-left: 60%;
 }
 
-.footer li {
+.footer a {
+  color: white;
   margin-right: 5%;
 }
 
