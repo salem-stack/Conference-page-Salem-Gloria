@@ -5,25 +5,45 @@
   text-decoration: none;
 }
 
+@font-face {
+  src: url(font/Lato-Bold.tff);
+  font-family: lato;
+}
+
 .body {
   background: #293f50;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nav-bar {
   background-color: #293F50;
-  padding: 15px 50px;
+  padding: 35px 50px;
   display: flex;
-  align-items: center;
 }
 
 .nav-bar h1 {
+  /* border-top: 4px solid #648880; */
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
   color: white;
+  margin-left: 10%;
+  line-height: 8vh;
+  font-family: 'Lato', sans-serif;
 }
 
 .nav-bar nav {
   padding-left: 40%;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-bar h3 {
+  margin: 66px 0 0px 0;
+  text-align: right;
+  color: #648880;
+  font-family: lato;
 }
 
 .nav-bar ul {
@@ -35,11 +55,15 @@
 }
 
 .nav-bar li {
-  margin-right: 2%;
+  margin-right: 10%;
 }
 
 .nav-bar a {
   color: white;
+}
+
+.nav-bar a:hover {
+  color: #648880;
 }
 
 .box a {
@@ -137,8 +161,21 @@
   margin-left: 60%;
 }
 
+.footer li {
+  margin-right: 10%;
+}
+
 .footer a {
   color: white;
-  margin-right: 5%;
+}
+
+.btn:hover{
+  background-color: white;
+  color: #293f50;
+  cursor: pointer;
+  
+}
+.footer a:hover {
+  color: #648880;
 }
 
