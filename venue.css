@@ -1,14 +1,14 @@
 * {
-  padding: 0;
   margin: 0;
   border: 0;
   text-decoration: none;
+  font-family: Lato, "open Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: Lato;
 }
 
 .body {
   background: #293f50;
   color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .nav-bar {
@@ -17,24 +17,26 @@
   display: flex;
 }
 
-.nav-bar h1 {
+
+.title {
   border-top: 4px solid #648880;
-  float: left;
+  margin-left: 18%;
   font-size: 48px;
   font-weight: 100;
   color: white;
-  margin-left: 10%;
+  padding-top: 10;
+
 }
 
 .nav-bar nav {
-  padding-left: 40%;
+  padding-left: 25%;
   text-align: right;
   font-size: 16px;
   font-weight: 400;
 }
 
 .nav-bar h3 {
-  margin: 66px 0 0px 0;
+  margin: 35px 0;
   text-align: right;
   color: #648880;
 }
@@ -51,7 +53,7 @@
   margin-right: 10%;
 }
 
-.nav-bar a {
+.nav-bar a, .title a {
   color: white;
 }
 
@@ -68,9 +70,6 @@
   list-style: none;
   color: white;
   margin-right: 25%;
-}
-
-.main {
 }
 
 .venue {
@@ -93,45 +92,91 @@
   padding-bottom: 15px;
 }
 
-.features {
-  margin: 5% 12%;
-  color: #648880;
+
+/* Map Area */
+.map-feature{
+  padding: 5% 20%;
 }
 
+.map-addr {
+  color: #888888;
+  font-size: 1.2em;
+}
+
+.map-feature a {
+  color: #648880;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.tel {
+  color: #888;
+  font-size: 1.2em;
+}
+
+  
 .map {
+  margin-left: 30%;
+  margin-top: 0.5%;
+}
+
+/*First Map*/
+.map-geo {
   display: flex;
+  justify-content: center;
+  margin: 2% 15%;
 }
 
-.features h2 {
-  margin-bottom: 5px;
+.city-loc {
+  margin-top: 10%;
+  margin-left: 23%;
 }
 
-.features p {
-  margin-bottom: 10px;
-}
-
-.features a {
+.map-name {
   color: #648880;
+  font-size: 145%;
+  font-weight: 400;
 }
 
+/* Second Map */
+.map-geo-two{
+  display: flex;
+  justify-content: center;
+  margin: 4%;
+} 
+
+.hotel-loc {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+/* End of Map Area */
+
+
+/* ----Footer---- */
 .footer {
   background-color: #293F50;
-  padding: 25px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 2% 20%;
 }
 
-.footer p {
+.subtitle2 {
   color: #648880;
-  margin: 1% 15%;
+  margin-left: 5%;
 }
 
-.footer ul {
+.footer-items {
   list-style: none;
   display: flex;
-  margin-left: 60%;
+
+  
 }
 
-.footer li {
-  margin-right: 10%;
+.footer-items li {
+  padding: 0 5%;
+ /* padding: 0 5%;
+ margin-right: 30%; */
 }
 
 .footer a {
