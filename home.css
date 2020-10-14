@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   border: 0;
@@ -8,11 +8,14 @@
 @font-face {
   src: url(font/Lato-Bold.tff);
   font-family: lato;
-}
+} */
 
-.body {
-  background: #293f50;
-  color: #888;
+* {
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  font-family: Lato, "open Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: Lato;
 }
 
 .nav-bar {
@@ -21,29 +24,28 @@
   display: flex;
 }
 
-.nav-bar h1 {
-  /* border-top: 4px solid #648880; */
-  float: left;
+
+.title {
+  border-top: 4px solid #648880;
+  margin-left: 18%;
   font-size: 48px;
   font-weight: 100;
   color: white;
-  margin-left: 10%;
-  line-height: 8vh;
-  font-family: 'Lato', sans-serif;
+  padding-top: 10;
+
 }
 
 .nav-bar nav {
-  padding-left: 40%;
+  padding-left: 25%;
   text-align: right;
   font-size: 16px;
   font-weight: 400;
 }
 
 .nav-bar h3 {
-  margin: 66px 0 0px 0;
+  margin: 35px 0;
   text-align: right;
   color: #648880;
-  font-family: lato;
 }
 
 .nav-bar ul {
@@ -58,39 +60,13 @@
   margin-right: 10%;
 }
 
-.nav-bar a {
+.nav-bar a, .title a {
   color: white;
 }
 
 .nav-bar a:hover {
   color: #648880;
 }
-
-.box a {
-  color: #648880;
-}
-
-.title {
-  border-top: 4px solid #648880;
-  float: left;
-  font-size: 48px;
-  font-weight: 100;
-  color: white;
-  margin-left: 10%;
-}
-
-.h3 {
-  margin: 66px 0 0px 0;
-  text-align: right;
-  margin-right: 25%;
-  color: #648880;
-}
-
-.nav {
-  text-align: right;
-  font-size: 14px;
-  font-weight: 400;
-} 
 
 .nav li {
   display: flex;
@@ -147,34 +123,33 @@
 
 .footer {
   background-color: #293F50;
-  padding: 25px;
+  display: flex;
+  padding: 1.5%;
+  justify-content: center;
 }
 
-.footer p {
+.subtitle2 {
   color: #648880;
-  margin: 1% 15%;
+  font-size: 14px;
+  margin-right: 10%;
+  padding-top: 2%;
 }
 
-.footer ul {
+.footer-items {
   list-style: none;
   display: flex;
-  margin-left: 60%;
+  margin-left: 15%;
+  padding-top: 2%;
 }
 
-.footer li {
-  margin-right: 10%;
+.footer-items li {
+  padding: 0 6%;
 }
 
 .footer a {
   color: white;
 }
 
-.btn:hover{
-  background-color: white;
-  color: #293f50;
-  cursor: pointer;
-  
-}
 .footer a:hover {
   color: #648880;
 }
