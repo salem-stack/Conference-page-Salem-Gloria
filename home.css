@@ -1,22 +1,4 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  text-decoration: none;
-}
-
-@font-face {
-  src: url(font/Lato-Bold.tff);
-  font-family: lato;
-} */
-
-* {
-  margin: 0;
-  border: 0;
-  text-decoration: none;
-  font-family: Lato, "open Sans", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: Lato;
-}
+/*  Header Area */
 
 .nav-bar {
   background-color: #293F50;
@@ -26,7 +8,7 @@
 
 
 .title {
-  border-top: 4px solid #648880;
+  /* border-top: 4px solid #648880; */
   margin-left: 18%;
   font-size: 48px;
   font-weight: 100;
@@ -75,10 +57,8 @@
   margin-right: 25%;
 }
 
-.main {
-  
-}
 
+/* Main */
 .intro {
   background-color: #293F50;
   padding: 25px;
@@ -108,11 +88,24 @@
   font-size: 16px;
 }
 
+.btn :hover {
+  background-color: #648880;
+}
+
 .features {
   display: flex;
   width: 960px;
-  margin: 5% 12%;
+  margin: 10% 20%;
   color: #648880;
+}
+
+.box {
+  margin: 0 3%;
+}
+
+.intro a :hover{
+  background-color: white;
+  color: #648880 ;
 }
 
 .features img {
@@ -121,6 +114,8 @@
   border-radius: 5%;
 }
 
+
+/* Footer */
 .footer {
   background-color: #293F50;
   display: flex;

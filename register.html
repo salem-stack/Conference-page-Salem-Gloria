@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="register.css">
+    <script src="conference.js"></script>
   </head>
 
   <body class="body">
@@ -59,19 +61,19 @@
           </div>
   
           <!-- Input Area in Main Section Two-->
-          <form action="" class="reg-input-area">
+          <form action="" id="reg-input-area" method="GET"> 
             <fieldset class="fieldset">
               <label for="fname">
                 Name
-                <input type="text" id="fname" name="fullname" placeholder="Full name..">
+                <input type="text" id="fname" name="fullname" placeholder="Full name.." required>
               </label>
-              <label for="email">
+              <label for="email" req>
                 Email
-                <input type="text" id="email" name="email" placeholder="Your Email Address">
+                <input type="text" id="email" name="email" placeholder="Your Email Address" required>
               </label>
               <label> 
                 Number of Passes </br>
-                <select name="numbers">
+                <select name="numbers" required>
                   <option value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
@@ -80,10 +82,10 @@
               </label>
               <label>
                 Comments
-                <textarea name="txtarea" cols="40" rows="5" name="comments"></textarea>
+                <textarea name="txtarea" cols="40" rows="5" name="comments" required></textarea>
               </label>
             </fieldset>
-            <input class="btn" type="submit" name="submit" value="Purchase">
+            <input class="btn" type="submit" name="submit"  value="Purchase" onclick="getOptions()">
 
           </form>
           <!-- End of Input Area in Main Section Two-->
