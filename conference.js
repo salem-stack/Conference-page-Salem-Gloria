@@ -1,13 +1,25 @@
-function getOptions() {
-  var name = getElementById("fname");
-  var email = getElementById("email");
+function purchase() {
+  alert("Purchase Successful")
+}
 
-  var noPasses = document.getElementById("numbers");
-  var no = "";
-  var i;
-  for (i = 0; i < noPasses.length; i++) {
-    no = no + " " + x.options[i].text;
-  }
+function purchaseTicket() {
+  this.purchase();
+  var name = '';
+  var email = '';
+  var number = '';
+  var comment = '';
 
-  alert("puchase successfully");
+  name = document.getElementById('fname').value;
+
+  email = document.getElementById('email').value;
+
+  number = document.getElementById('numbers').value;
+
+  comment = document.getElementById('comments').value;
+
+  if(name == '' || email == '' || number == '' || comment == '') {
+    alert('Input Missing Field');
+  } else {
+    alert('Form has been submitted');
   }
+}
