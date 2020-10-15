@@ -17,7 +17,8 @@ This Website is all about Conference Forum, where you register and get the venue
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/salem-stack/Conference-page-Salem-Gloria)
+[Live Demo Link](https://raw.githack.com/salem-stack/Conference-page-Salem-Gloria/home-branch/home.html)
+
 <!-- [Live Demo Link](https://raw.githack.com/salem-stack/Conference-page-Salem-Gloria/home-branch/home.html) -->
 
 
